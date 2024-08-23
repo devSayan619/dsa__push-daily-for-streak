@@ -8,7 +8,6 @@ int main()
   cin >> n;
 
   int ans = 0;
-  int div = 0;
   while (n > 0)
   {
     int res = n % 10;
