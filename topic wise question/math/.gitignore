@@ -1,9 +1,11 @@
 *.out
 *.bin
 *.exe
+
+#this is all compile file 
+
 trail_fact
 count_num
-
 factorial
 gcd
 gfg_count_num
