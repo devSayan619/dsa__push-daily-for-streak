@@ -18,7 +18,7 @@ bool solve(vector<int>&arr,int n,int sum,vector<vector<int>>&t){
 }
 
 bool subSum(vector<int>&arr,int sum){
-  vector<vector<int>> t(arr.size()+1,vector<int>(sum+1,-1));
+  vector<vector<int>> t(arr.size()+1,vector<int>(sum+1,-1));  
   return solve(arr,arr.size(),sum,t);
 }
 
